@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bd0c9ba2ddf77a4791ccffd9f274ae0, type: 3}
+  m_Name: 1 - Hobo
+  m_EditorClassIdentifier: 
+  typeName: Hobo
+  sprite: {fileID: 21300000, guid: 18d94c127255d894ca19b449351db27d, type: 3}
+  attacks:
+  - level: 0
+    data: {fileID: 11400000, guid: 59b07f70d3f29aa449e7d7b03dc80232, type: 2}
+  - level: 3
+    data: {fileID: 11400000, guid: 6daa0dead44a77a44ab31aa26e6beee8, type: 2}
+  - level: 10
+    data: {fileID: 11400000, guid: de20dbfb4ff180a409e74b0e3fcb6162, type: 2}
+  effects:
+  - stimType: fighting
+    strength: 1
+  - stimType: cold
+    strength: 2
+  - stimType: bio
+    strength: 0.5
+  - stimType: life
+    strength: 1
