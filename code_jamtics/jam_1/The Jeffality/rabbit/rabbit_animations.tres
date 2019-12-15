@@ -1,0 +1,51 @@
+[gd_resource type="SpriteFrames" load_steps=27 format=2]
+
+[ext_resource path="res://rabbit/right/tile000.png" type="Texture" id=1]
+[ext_resource path="res://rabbit/right/tile001.png" type="Texture" id=2]
+[ext_resource path="res://rabbit/right/tile002.png" type="Texture" id=3]
+[ext_resource path="res://rabbit/right/tile003.png" type="Texture" id=4]
+[ext_resource path="res://rabbit/right/tile004.png" type="Texture" id=5]
+[ext_resource path="res://rabbit/right/tile005.png" type="Texture" id=6]
+[ext_resource path="res://rabbit/right/tile006.png" type="Texture" id=7]
+[ext_resource path="res://rabbit/right/tile007.png" type="Texture" id=8]
+[ext_resource path="res://rabbit/up/tile000.png" type="Texture" id=9]
+[ext_resource path="res://rabbit/up/tile001.png" type="Texture" id=10]
+[ext_resource path="res://rabbit/up/tile002.png" type="Texture" id=11]
+[ext_resource path="res://rabbit/up/tile003.png" type="Texture" id=12]
+[ext_resource path="res://rabbit/up/tile004.png" type="Texture" id=13]
+[ext_resource path="res://rabbit/up/tile005.png" type="Texture" id=14]
+[ext_resource path="res://rabbit/up/tile006.png" type="Texture" id=15]
+[ext_resource path="res://rabbit/up/tile007.png" type="Texture" id=16]
+[ext_resource path="res://rabbit/idle/frame 1.png" type="Texture" id=17]
+[ext_resource path="res://rabbit/idle/frame 2.png" type="Texture" id=18]
+[ext_resource path="res://rabbit/down/tile000.png" type="Texture" id=19]
+[ext_resource path="res://rabbit/down/tile001.png" type="Texture" id=20]
+[ext_resource path="res://rabbit/down/tile002.png" type="Texture" id=21]
+[ext_resource path="res://rabbit/down/tile003.png" type="Texture" id=22]
+[ext_resource path="res://rabbit/down/tile004.png" type="Texture" id=23]
+[ext_resource path="res://rabbit/down/tile005.png" type="Texture" id=24]
+[ext_resource path="res://rabbit/down/tile006.png" type="Texture" id=25]
+[ext_resource path="res://rabbit/down/tile007.png" type="Texture" id=26]
+
+[resource]
+animations = [ {
+"frames": [ ExtResource( 1 ), ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ) ],
+"loop": true,
+"name": "right",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ) ],
+"loop": true,
+"name": "up",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 17 ), ExtResource( 18 ) ],
+"loop": true,
+"name": "idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ) ],
+"loop": true,
+"name": "down",
+"speed": 5.0
+} ]

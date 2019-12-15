@@ -1,0 +1,66 @@
+[gd_resource type="SpriteFrames" load_steps=32 format=2]
+
+[ext_resource path="res://rogue like character/rogue like idle_Animation 1_0.png" type="Texture" id=1]
+[ext_resource path="res://rogue like character/rogue like idle_Animation 1_1.png" type="Texture" id=2]
+[ext_resource path="res://rogue like character/rogue like idle_Animation 1_2.png" type="Texture" id=3]
+[ext_resource path="res://rogue like character/rogue like attack animations_attack down_0.png" type="Texture" id=4]
+[ext_resource path="res://rogue like character/rogue like attack animations_attack down_1.png" type="Texture" id=5]
+[ext_resource path="res://rogue like character/rogue like attack animations_attack down_2.png" type="Texture" id=6]
+[ext_resource path="res://rogue like character/rogue like attack animations_attack down_3.png" type="Texture" id=7]
+[ext_resource path="res://rogue like character/roguelike run down_Animation 1_0.png" type="Texture" id=8]
+[ext_resource path="res://rogue like character/roguelike run down_Animation 1_1.png" type="Texture" id=9]
+[ext_resource path="res://rogue like character/roguelike run down_Animation 1_2.png" type="Texture" id=10]
+[ext_resource path="res://rogue like character/roguelike run down_Animation 1_3.png" type="Texture" id=11]
+[ext_resource path="res://rogue like character/rogue like run_Animation 1_0.png" type="Texture" id=12]
+[ext_resource path="res://rogue like character/rogue like run_Animation 1_1.png" type="Texture" id=13]
+[ext_resource path="res://rogue like character/rogue like run_Animation 1_2.png" type="Texture" id=14]
+[ext_resource path="res://rogue like character/rogue like run_Animation 1_3.png" type="Texture" id=15]
+[ext_resource path="res://rogue like character/rogue like run_Animation 1_4.png" type="Texture" id=16]
+[ext_resource path="res://rogue like character/rogue like run_Animation 1_5.png" type="Texture" id=17]
+[ext_resource path="res://rogue like character/rogue like attack_Animation 1_0.png" type="Texture" id=18]
+[ext_resource path="res://rogue like character/rogue like attack_Animation 1_1.png" type="Texture" id=19]
+[ext_resource path="res://rogue like character/rogue like attack_Animation 1_2.png" type="Texture" id=20]
+[ext_resource path="res://rogue like character/rogue like attack_Animation 1_3.png" type="Texture" id=21]
+[ext_resource path="res://rogue like character/rogue like attack_Animation 1_4.png" type="Texture" id=22]
+[ext_resource path="res://rogue like character/rogue like attack_Animation 1_5.png" type="Texture" id=23]
+[ext_resource path="res://rogue like character/rogue like attack_Animation 1_6.png" type="Texture" id=24]
+[ext_resource path="res://rogue like character/rogue like attack_Animation 1_7.png" type="Texture" id=25]
+[ext_resource path="res://rogue like character/rogue like attack_Animation 1_8.png" type="Texture" id=26]
+[ext_resource path="res://rogue like character/rogue like attack_Animation 1_9.png" type="Texture" id=27]
+[ext_resource path="res://rogue like character/rogue like run up_Animation 1_0.png" type="Texture" id=28]
+[ext_resource path="res://rogue like character/rogue like run up_Animation 1_1.png" type="Texture" id=29]
+[ext_resource path="res://rogue like character/rogue like run up_Animation 1_2.png" type="Texture" id=30]
+[ext_resource path="res://rogue like character/rogue like run up_Animation 1_3.png" type="Texture" id=31]
+
+[resource]
+animations = [ {
+"frames": [ ExtResource( 1 ), ExtResource( 2 ), ExtResource( 3 ) ],
+"loop": true,
+"name": "idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ) ],
+"loop": true,
+"name": "summon",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ) ],
+"loop": true,
+"name": "run_down",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ) ],
+"loop": true,
+"name": "run",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ) ],
+"loop": true,
+"name": "attack",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ) ],
+"loop": true,
+"name": "run_up",
+"speed": 5.0
+} ]
