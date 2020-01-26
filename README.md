@@ -8,3 +8,6 @@ Thomas Maxwell ([Pokehum](https://github.com/Tapptastic/code_jamtics/tree/master
 Thomas Mathews ([the jeffality](https://github.com/Tapptastic/code_jamtics/tree/master/code_jamtics/jam_1/The%20Jeffality))
 
 Joe Flitcroft
+
+## Jam 2 (Start with nothing)
+Thomas Mathews ([Nothingness]())
