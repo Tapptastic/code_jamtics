@@ -10,4 +10,4 @@ Thomas Mathews ([the jeffality](https://github.com/Tapptastic/code_jamtics/tree/
 Joe Flitcroft
 
 ## Jam 2 (Start with nothing)
-Thomas Mathews ([Nothingness]())
+Thomas Mathews ([Nothingness](https://github.com/Tapptastic/code_jamtics/tree/master/code_jamtics/jam_2/Nothingness))
